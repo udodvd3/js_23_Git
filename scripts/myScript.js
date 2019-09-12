@@ -11,4 +11,6 @@ $('.myBtn').on('click',function (e) {
 
 let mySecCommit = 'MySec Commit There';
 alert(mySecCommit);
+let myNewBranchCommit = 'New branch Commit is HERE';
+alert(myNewBranchCommit);
 })
