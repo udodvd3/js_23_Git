@@ -13,4 +13,10 @@ let mySecCommit = 'MySec Commit There';
 alert(mySecCommit);
 
 let materCommit_v3 = "V3.0 Commit";
+
+let myNewBranchCommit = 'New branch Commit is HERE';
+alert(myNewBranchCommit);
+
+let NewBranchCommit_2 = "My sec commit in New Branch";
+
 })
