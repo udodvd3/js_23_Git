@@ -5,7 +5,7 @@ $('.myBtn').on('click',function (e) {
     console.log(e.target);
     let myUl = "<ul></ul>";
     let myNum = (Math.random()*1000).toFixed(0);
-    console.log(myNum);
+    alert(myNum);
     $('<li>New Num - '+myNum+'</li>').appendTo(myUl).appendTo(myWrap);
 })
 
@@ -18,5 +18,9 @@ let myNewBranchCommit = 'New branch Commit is HERE';
 alert(myNewBranchCommit);
 
 let NewBranchCommit_2 = "My sec commit in New Branch";
+//Вопрос 1-ый конфликт с переменными!!
+
+//2-ой - не было возможности замерджить!!
+
 
 })
