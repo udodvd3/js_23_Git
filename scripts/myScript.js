@@ -9,5 +9,6 @@ $('.myBtn').on('click',function (e) {
     $('<li>New Num - '+myNum+'</li>').appendTo(myUl).appendTo(myWrap);
 })
 
-
+let mySecCommit = 'MySec Commit There';
+alert(mySecCommit);
 })
